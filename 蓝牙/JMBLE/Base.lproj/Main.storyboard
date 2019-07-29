@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nEf-Yh-c9b">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BaseController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcJ-fX-4qv">
+                                <rect key="frame" x="11" y="318" width="71" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28627450980392155" green="0.88627450980392153" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="设备状态"/>
+                                <connections>
+                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eeG-U3-3xq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3J-98-dyI">
+                                <rect key="frame" x="106" y="318" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12941176470588237" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="设备信息"/>
+                                <connections>
+                                    <action selector="btn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OOh-2B-yAK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOg-9t-VaJ">
+                                <rect key="frame" x="204" y="318" width="66" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12941176470588237" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="枚举密条"/>
+                                <connections>
+                                    <action selector="btn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PHB-vF-P8P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIB-oO-hqJ">
+                                <rect key="frame" x="11" y="368" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="增加密条"/>
+                                <connections>
+                                    <action selector="btn4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBh-qn-G04"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx5-ty-2KK">
+                                <rect key="frame" x="109" y="368" width="69" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="修改密条"/>
+                                <connections>
+                                    <action selector="btn5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzZ-To-Bkf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jyd-er-jsa">
+                                <rect key="frame" x="293" y="368" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="只读密条"/>
+                                <connections>
+                                    <action selector="btn7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O2H-4x-lad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqo-ur-6Li">
+                                <rect key="frame" x="109" y="422" width="69" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="修改密码"/>
+                                <connections>
+                                    <action selector="btn10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2CN-O4-cmB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nae-1P-rka">
+                                <rect key="frame" x="204" y="422" width="66" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="删除密码"/>
+                                <connections>
+                                    <action selector="btn11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaT-BH-dYW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nM6-4e-VeB">
+                                <rect key="frame" x="11" y="422" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="增加密码"/>
+                                <connections>
+                                    <action selector="btn9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MgX-DZ-bCm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bON-ra-uFM">
+                                <rect key="frame" x="11" y="476" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="密码分类"/>
+                                <connections>
+                                    <action selector="btn13:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oui-Ks-G9M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W5-Xu-k2I">
+                                <rect key="frame" x="204" y="368" width="66" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="删除密条"/>
+                                <connections>
+                                    <action selector="btn6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9CQ-9b-HVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTy-T9-ZhP">
+                                <rect key="frame" x="293" y="319" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33032885193824768" green="0.89888405799865723" blue="0.7645714282989502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="枚举密码"/>
+                                <connections>
+                                    <action selector="btn8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ds-Nr-dC1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1b-Lz-diR">
+                                <rect key="frame" x="109" y="476" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="密码标题"/>
+                                <connections>
+                                    <action selector="btn14:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vqx-LZ-ITp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCM-50-j6m">
+                                <rect key="frame" x="204" y="476" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="备份"/>
+                                <connections>
+                                    <action selector="btn15:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUs-3O-3zr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nm1-yM-IOt">
+                                <rect key="frame" x="294" y="476" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="恢复"/>
+                                <connections>
+                                    <action selector="btn16:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iab-ai-PtG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngk-8D-mwV">
+                                <rect key="frame" x="293" y="422" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="只读密码"/>
+                                <connections>
+                                    <action selector="btn12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZE-a9-GY4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVJ-XV-Wfy">
+                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89464962482452393" green="0.88029181957244873" blue="0.26156178116798401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="我的盾啊"/>
+                                <connections>
+                                    <action selector="all:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YVg-1Z-fe7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXb-hu-tqD">
+                                <rect key="frame" x="11" y="525" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98112869262695312" green="0.45389115810394287" blue="0.037372231483459473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="固件升级"/>
+                                <connections>
+                                    <action selector="btn17:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bHT-n6-s7b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8j-eq-Zp6">
+                                <rect key="frame" x="292" y="574" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.81917059421539307" green="0.95556867122650146" blue="0.094259761273860931" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="下翻"/>
+                                <connections>
+                                    <action selector="btn19:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s3V-3E-bgG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQk-1k-VF4">
+                                <rect key="frame" x="0.0" y="272" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88115644454956055" green="1" blue="0.043770149350166321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="枚举密钥"/>
+                                <connections>
+                                    <action selector="btn20:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgO-IE-657"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWQ-p4-w7x">
+                                <rect key="frame" x="76" y="272" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88115644454956055" green="1" blue="0.043770149350166321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="加密初始"/>
+                                <connections>
+                                    <action selector="btn21:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbP-eM-be4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lw3-TV-C2r">
+                                <rect key="frame" x="231" y="272" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88115644454956055" green="1" blue="0.043770149350166321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="解密初始"/>
+                                <connections>
+                                    <action selector="btn23:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lU8-my-eCU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3PH-Df-TcF">
+                                <rect key="frame" x="308" y="272" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88115644454956055" green="1" blue="0.043770149350166321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="解密单帧"/>
+                                <connections>
+                                    <action selector="btn24:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYQ-ru-3OP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBd-yD-VSL">
+                                <rect key="frame" x="152" y="272" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88115644454956055" green="1" blue="0.043770149350166321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="加密单帧"/>
+                                <connections>
+                                    <action selector="btn22:" destination="BYZ-38-t0r" eventType="touchUpInside" id="47A-gJ-oFM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfu-iY-iAS">
+                                <rect key="frame" x="109" y="526" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90421533584594727" green="0.82669782638549805" blue="0.16301468014717102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="改密码"/>
+                                <connections>
+                                    <action selector="btn30:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wh7-G9-uOz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4D-Km-r02">
+                                <rect key="frame" x="204" y="526" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90421533584594727" green="0.82669782638549805" blue="0.16301468014717102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="改名"/>
+                                <connections>
+                                    <action selector="btn31:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pz-bu-B5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEq-M1-5OZ">
+                                <rect key="frame" x="294" y="525" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90421533584594727" green="0.82669782638549805" blue="0.16301468014717102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="重置"/>
+                                <connections>
+                                    <action selector="btn32:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAU-xC-rso"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq1-cb-Udl">
+                                <rect key="frame" x="0.0" y="607" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.86274509803921573" blue="0.20784313725490197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="秘钥"/>
+                                <connections>
+                                    <action selector="btn40:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H7h-4a-pdU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xko-pH-jqb">
+                                <rect key="frame" x="329" y="607" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.86274509799999999" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="秘钥"/>
+                                <connections>
+                                    <action selector="btn41:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cgi-B0-iGx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SA2-uB-vCT">
+                                <rect key="frame" x="11" y="574" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77720034122467041" green="0.96170735359191895" blue="0.078737802803516388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="上翻"/>
+                                <connections>
+                                    <action selector="btn18:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lni-9u-VmA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="uDR-Ka-oU4">
+                        <leftBarButtonItems>
+                            <barButtonItem title="断开" id="QLJ-pc-uaG">
+                                <connections>
+                                    <action selector="btn001:" destination="BYZ-38-t0r" id="pYU-jy-cqr"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="开始" id="0lq-fX-DZq">
+                                <connections>
+                                    <action selector="btn60:" destination="BYZ-38-t0r" id="00W-rn-P5C"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" title="确定" id="S9F-YP-EWc"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-131"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2WB-zk-RYM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nEf-Yh-c9b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iHm-Tm-8Bi">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jkq-6x-V1y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KbZ-id-B6c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1319" y="128"/>
+        </scene>
+    </scenes>
+</document>

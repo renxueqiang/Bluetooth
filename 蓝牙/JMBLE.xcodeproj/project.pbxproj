@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E0AFA52101BE7800586167 /* libGMCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0AF902101BE7800586167 /* libGMCrypto.a */; };
+		84E0AFA62101BE7800586167 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0AF912101BE7800586167 /* openssl.framework */; };
+		84E0AFA72101BE7800586167 /* JMCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AF952101BE7800586167 /* JMCentralManager.m */; };
+		84E0AFA82101BE7800586167 /* JMPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AF972101BE7800586167 /* JMPeripheral.m */; };
+		84E0AFA92101BE7800586167 /* _calcsortvalue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AF992101BE7800586167 /* _calcsortvalue.cpp */; };
+		84E0AFAA2101BE7800586167 /* _sm3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AF9B2101BE7800586167 /* _sm3.cpp */; };
+		84E0AFAB2101BE7800586167 /* _sm4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AF9D2101BE7800586167 /* _sm4.cpp */; };
+		84E0AFAC2101BE7800586167 /* JMCoreCommandCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AFA02101BE7800586167 /* JMCoreCommandCenter.m */; };
+		84E0AFAD2101BE7800586167 /* jmd_btcomm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AFA12101BE7800586167 /* jmd_btcomm.cpp */; };
+		84E0AFAE2101BE7800586167 /* JMTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84E0AFA42101BE7800586167 /* JMTools.mm */; };
+		9A389EF61E9B174800A4377A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A389EF51E9B174800A4377A /* main.m */; };
+		9A389EF91E9B174800A4377A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A389EF81E9B174800A4377A /* AppDelegate.m */; };
+		9A389EFC1E9B174800A4377A /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A389EFB1E9B174800A4377A /* BaseController.m */; };
+		9A389EFF1E9B174800A4377A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A389EFD1E9B174800A4377A /* Main.storyboard */; };
+		9A389F011E9B174800A4377A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A389F001E9B174800A4377A /* Assets.xcassets */; };
+		9A389F041E9B174800A4377A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A389F021E9B174800A4377A /* LaunchScreen.storyboard */; };
+		9A389FDF1E9B2E4900A4377A /* SecurityBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A389FDE1E9B2E4900A4377A /* SecurityBookModel.m */; };
+		9A389FE21E9B683E00A4377A /* JMPeripherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A389FE11E9B683E00A4377A /* JMPeripherModel.m */; };
+		9A8837711E9E084100AB1072 /* JMSecurityBModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8837701E9E084100AB1072 /* JMSecurityBModle.m */; };
+		9ACF47911E9F556300B46CD3 /* JMDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF47901E9F556300B46CD3 /* JMDeviceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84E0AF902101BE7800586167 /* libGMCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGMCrypto.a; sourceTree = "<group>"; };
+		84E0AF912101BE7800586167 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		84E0AF922101BE7800586167 /* PassGuardCrypto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PassGuardCrypto.hpp; sourceTree = "<group>"; };
+		84E0AF942101BE7800586167 /* JMCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCentralManager.h; sourceTree = "<group>"; };
+		84E0AF952101BE7800586167 /* JMCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCentralManager.m; sourceTree = "<group>"; };
+		84E0AF962101BE7800586167 /* JMPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPeripheral.h; sourceTree = "<group>"; };
+		84E0AF972101BE7800586167 /* JMPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPeripheral.m; sourceTree = "<group>"; };
+		84E0AF992101BE7800586167 /* _calcsortvalue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _calcsortvalue.cpp; sourceTree = "<group>"; };
+		84E0AF9A2101BE7800586167 /* _calcsortvalue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _calcsortvalue.h; sourceTree = "<group>"; };
+		84E0AF9B2101BE7800586167 /* _sm3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _sm3.cpp; sourceTree = "<group>"; };
+		84E0AF9C2101BE7800586167 /* _sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _sm3.h; sourceTree = "<group>"; };
+		84E0AF9D2101BE7800586167 /* _sm4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _sm4.cpp; sourceTree = "<group>"; };
+		84E0AF9E2101BE7800586167 /* _sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _sm4.h; sourceTree = "<group>"; };
+		84E0AF9F2101BE7800586167 /* JMCoreCommandCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCoreCommandCenter.h; sourceTree = "<group>"; };
+		84E0AFA02101BE7800586167 /* JMCoreCommandCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCoreCommandCenter.m; sourceTree = "<group>"; };
+		84E0AFA12101BE7800586167 /* jmd_btcomm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jmd_btcomm.cpp; sourceTree = "<group>"; };
+		84E0AFA22101BE7800586167 /* jmd_btcomm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jmd_btcomm.hpp; sourceTree = "<group>"; };
+		84E0AFA32101BE7800586167 /* JMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTools.h; sourceTree = "<group>"; };
+		84E0AFA42101BE7800586167 /* JMTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JMTools.mm; sourceTree = "<group>"; };
+		9A389EF11E9B174800A4377A /* JMBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A389EF51E9B174800A4377A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A389EF71E9B174800A4377A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A389EF81E9B174800A4377A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A389EFA1E9B174800A4377A /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		9A389EFB1E9B174800A4377A /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		9A389EFE1E9B174800A4377A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A389F001E9B174800A4377A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A389F031E9B174800A4377A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A389F051E9B174800A4377A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A389F3F1E9B18D100A4377A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A389FDD1E9B2E4900A4377A /* SecurityBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityBookModel.h; sourceTree = "<group>"; };
+		9A389FDE1E9B2E4900A4377A /* SecurityBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityBookModel.m; sourceTree = "<group>"; };
+		9A389FE01E9B683E00A4377A /* JMPeripherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPeripherModel.h; sourceTree = "<group>"; };
+		9A389FE11E9B683E00A4377A /* JMPeripherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPeripherModel.m; sourceTree = "<group>"; };
+		9A88376F1E9E084100AB1072 /* JMSecurityBModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSecurityBModle.h; sourceTree = "<group>"; };
+		9A8837701E9E084100AB1072 /* JMSecurityBModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSecurityBModle.m; sourceTree = "<group>"; };
+		9ACF478F1E9F556300B46CD3 /* JMDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDeviceModel.h; sourceTree = "<group>"; };
+		9ACF47901E9F556300B46CD3 /* JMDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDeviceModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A389EEE1E9B174800A4377A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0AFA52101BE7800586167 /* libGMCrypto.a in Frameworks */,
+				84E0AFA62101BE7800586167 /* openssl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8486D57D2100208900F53AFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A389EFA1E9B174800A4377A /* BaseController.h */,
+				9A389EFB1E9B174800A4377A /* BaseController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84E0AF8E2101BE7800586167 /* MainFile */ = {
+			isa = PBXGroup;
+			children = (
+				84E0AF8F2101BE7800586167 /* BLEEncrypt */,
+				84E0AF932101BE7800586167 /* BLEManager */,
+				84E0AF982101BE7800586167 /* BLESupport */,
+			);
+			path = MainFile;
+			sourceTree = "<group>";
+		};
+		84E0AF8F2101BE7800586167 /* BLEEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				84E0AF902101BE7800586167 /* libGMCrypto.a */,
+				84E0AF912101BE7800586167 /* openssl.framework */,
+				84E0AF922101BE7800586167 /* PassGuardCrypto.hpp */,
+			);
+			path = BLEEncrypt;
+			sourceTree = "<group>";
+		};
+		84E0AF932101BE7800586167 /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E0AF942101BE7800586167 /* JMCentralManager.h */,
+				84E0AF952101BE7800586167 /* JMCentralManager.m */,
+				84E0AF962101BE7800586167 /* JMPeripheral.h */,
+				84E0AF972101BE7800586167 /* JMPeripheral.m */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		84E0AF982101BE7800586167 /* BLESupport */ = {
+			isa = PBXGroup;
+			children = (
+				84E0AF992101BE7800586167 /* _calcsortvalue.cpp */,
+				84E0AF9A2101BE7800586167 /* _calcsortvalue.h */,
+				84E0AF9B2101BE7800586167 /* _sm3.cpp */,
+				84E0AF9C2101BE7800586167 /* _sm3.h */,
+				84E0AF9D2101BE7800586167 /* _sm4.cpp */,
+				84E0AF9E2101BE7800586167 /* _sm4.h */,
+				84E0AF9F2101BE7800586167 /* JMCoreCommandCenter.h */,
+				84E0AFA02101BE7800586167 /* JMCoreCommandCenter.m */,
+				84E0AFA12101BE7800586167 /* jmd_btcomm.cpp */,
+				84E0AFA22101BE7800586167 /* jmd_btcomm.hpp */,
+				84E0AFA32101BE7800586167 /* JMTools.h */,
+				84E0AFA42101BE7800586167 /* JMTools.mm */,
+			);
+			path = BLESupport;
+			sourceTree = "<group>";
+		};
+		9A389EE81E9B174800A4377A = {
+			isa = PBXGroup;
+			children = (
+				9A389EF31E9B174800A4377A /* JMBLE */,
+				9A389EF21E9B174800A4377A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A389EF21E9B174800A4377A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A389EF11E9B174800A4377A /* JMBLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A389EF31E9B174800A4377A /* JMBLE */ = {
+			isa = PBXGroup;
+			children = (
+				84E0AF8E2101BE7800586167 /* MainFile */,
+				8486D57D2100208900F53AFC /* Controller */,
+				9A389F531E9B20AD00A4377A /* Model */,
+				9A389F0B1E9B175100A4377A /* other */,
+			);
+			path = JMBLE;
+			sourceTree = "<group>";
+		};
+		9A389F0B1E9B175100A4377A /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9A389F3F1E9B18D100A4377A /* PrefixHeader.pch */,
+				9A389EF71E9B174800A4377A /* AppDelegate.h */,
+				9A389EF81E9B174800A4377A /* AppDelegate.m */,
+				9A389EFD1E9B174800A4377A /* Main.storyboard */,
+				9A389F001E9B174800A4377A /* Assets.xcassets */,
+				9A389F021E9B174800A4377A /* LaunchScreen.storyboard */,
+				9A389EF51E9B174800A4377A /* main.m */,
+				9A389F051E9B174800A4377A /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		9A389F531E9B20AD00A4377A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A389FE01E9B683E00A4377A /* JMPeripherModel.h */,
+				9A389FE11E9B683E00A4377A /* JMPeripherModel.m */,
+				9A389FDD1E9B2E4900A4377A /* SecurityBookModel.h */,
+				9A389FDE1E9B2E4900A4377A /* SecurityBookModel.m */,
+				9A88376F1E9E084100AB1072 /* JMSecurityBModle.h */,
+				9A8837701E9E084100AB1072 /* JMSecurityBModle.m */,
+				9ACF478F1E9F556300B46CD3 /* JMDeviceModel.h */,
+				9ACF47901E9F556300B46CD3 /* JMDeviceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A389EF01E9B174800A4377A /* JMBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A389F081E9B174800A4377A /* Build configuration list for PBXNativeTarget "JMBLE" */;
+			buildPhases = (
+				9A389EED1E9B174800A4377A /* Sources */,
+				9A389EEE1E9B174800A4377A /* Frameworks */,
+				9A389EEF1E9B174800A4377A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMBLE;
+			productName = JMBLE;
+			productReference = 9A389EF11E9B174800A4377A /* JMBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A389EE91E9B174800A4377A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "任雪强";
+				TargetAttributes = {
+					9A389EF01E9B174800A4377A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = UBR5C2TDT8;
+					};
+				};
+			};
+			buildConfigurationList = 9A389EEC1E9B174800A4377A /* Build configuration list for PBXProject "JMBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A389EE81E9B174800A4377A;
+			productRefGroup = 9A389EF21E9B174800A4377A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A389EF01E9B174800A4377A /* JMBLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A389EEF1E9B174800A4377A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A389F041E9B174800A4377A /* LaunchScreen.storyboard in Resources */,
+				9A389F011E9B174800A4377A /* Assets.xcassets in Resources */,
+				9A389EFF1E9B174800A4377A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A389EED1E9B174800A4377A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0AFA72101BE7800586167 /* JMCentralManager.m in Sources */,
+				84E0AFAA2101BE7800586167 /* _sm3.cpp in Sources */,
+				9A389FE21E9B683E00A4377A /* JMPeripherModel.m in Sources */,
+				84E0AFAC2101BE7800586167 /* JMCoreCommandCenter.m in Sources */,
+				9ACF47911E9F556300B46CD3 /* JMDeviceModel.m in Sources */,
+				84E0AFAD2101BE7800586167 /* jmd_btcomm.cpp in Sources */,
+				9A389EFC1E9B174800A4377A /* BaseController.m in Sources */,
+				84E0AFA82101BE7800586167 /* JMPeripheral.m in Sources */,
+				9A389FDF1E9B2E4900A4377A /* SecurityBookModel.m in Sources */,
+				84E0AFA92101BE7800586167 /* _calcsortvalue.cpp in Sources */,
+				84E0AFAB2101BE7800586167 /* _sm4.cpp in Sources */,
+				9A389EF91E9B174800A4377A /* AppDelegate.m in Sources */,
+				9A389EF61E9B174800A4377A /* main.m in Sources */,
+				9A8837711E9E084100AB1072 /* JMSecurityBModle.m in Sources */,
+				84E0AFAE2101BE7800586167 /* JMTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A389EFD1E9B174800A4377A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A389EFE1E9B174800A4377A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A389F021E9B174800A4377A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A389F031E9B174800A4377A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A389F061E9B174800A4377A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A389F071E9B174800A4377A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A389F091E9B174800A4377A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UBR5C2TDT8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMBLE",
+					"$(PROJECT_DIR)/JMBLE/MainFile/BLEEncrypt",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./JMBLE/PrefixHeader.pch;
+				INFOPLIST_FILE = JMBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMBLE",
+					"$(PROJECT_DIR)/JMBLE/MainFile/BLEEncrypt",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rxq001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A389F0A1E9B174800A4377A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UBR5C2TDT8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMBLE",
+					"$(PROJECT_DIR)/JMBLE/MainFile/BLEEncrypt",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./JMBLE/PrefixHeader.pch;
+				INFOPLIST_FILE = JMBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JMBLE",
+					"$(PROJECT_DIR)/JMBLE/MainFile/BLEEncrypt",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rxq001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A389EEC1E9B174800A4377A /* Build configuration list for PBXProject "JMBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A389F061E9B174800A4377A /* Debug */,
+				9A389F071E9B174800A4377A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A389F081E9B174800A4377A /* Build configuration list for PBXNativeTarget "JMBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A389F091E9B174800A4377A /* Debug */,
+				9A389F0A1E9B174800A4377A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A389EE91E9B174800A4377A /* Project object */;
+}

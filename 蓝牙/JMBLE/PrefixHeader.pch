@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  JMBLE
+//
+//  Created by 任雪强 on 17/4/10.
+//  Copyright © 2017年 任雪强. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import "JMCentralManager.h"
+#import "JMTools.h"
+
+#define JMDeviceSerial     [JMCentralManager shareManger].Peripheral.devModel.devID
+#define   JMDeveiceType    [JMCentralManager shareManger].Peripheral.devType
+
+
+#endif
